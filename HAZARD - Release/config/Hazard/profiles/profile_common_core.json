@@ -1,0 +1,26 @@
+{
+  "_id": "Hazard",
+  "created": "2022-02-01T00:27:19.309Z",
+  "updated": "2022-02-01T00:27:19.309Z",
+  "rvn": 1,
+  "wipeNumber": 1,
+  "accountId": "Hazard",
+  "profileId": "common_core",
+  "version": "neonite_2",
+  "items": {
+    "Currency:MtxPurchased": {
+      "attributes": {
+        "platform": "EpicPC"
+      },
+      "quantity": 13000,
+      "templateId": "Currency:MtxPurchased"
+    }
+  },
+  "stats": {
+    "attributes": {
+      "mtx_affiliate": "HAZARD",
+      "current_mtx_platform": "EpicPC",
+      "mtx_purchase_history": {}
+    }
+  }
+}

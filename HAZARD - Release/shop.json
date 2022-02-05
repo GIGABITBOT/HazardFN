@@ -1,0 +1,620 @@
+{
+  "expiration": "9999-12-31T23:59:59.999Z",
+  "refreshIntervalHrs": 24,
+  "dailyPurchaseHrs": 24,
+  "storefronts": [
+    {
+      "name": "BRDailyStorefront",
+      "catalogEntries": [
+        {
+          "devName": "[VIRTUAL]1 x Fresh for 1500 MtxCurrency",
+          "offerId": "v2:/9268cb8788c6b62ea0893e6c85198e4fa8a0075bec8a31ada528d1163559367f",
+          "fulfillmentIds": [],
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "categories": [
+            "zzDaily 04"
+          ],
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "regularPrice": 800,
+              "dynamicRegularPrice": 800,
+              "finalPrice": 800,
+              "saleExpiration": "9999-12-31T23:59:59.999Z",
+              "basePrice": 800
+            }
+          ],
+          "meta": {
+            "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_EID_Fresh.DAv2_EID_Fresh",
+            "SectionId": "Daily",
+            "TileSize": "Small",
+            "AnalyticOfferGroupId": "4"
+          },
+          "matchFilter": "",
+          "filterWeight": 0.0,
+          "appStoreId": [],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaDance:EID_Fresh",
+              "minQuantity": 1
+            }
+
+          ],
+          "offerType": "StaticPrice",
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "metaInfo": [
+            {
+              "key": "NewDisplayAssetPath",
+              "value": "/Game/Catalog/NewDisplayAssets/DAv2_EID_Fresh.DAv2_EID_Fresh"
+            },
+            {
+              "key": "SectionId",
+              "value": "Daily"
+            },
+            {
+              "key": "TileSize",
+              "value": "Small"
+            },
+            {
+              "key": "AnalyticOfferGroupId",
+              "value": "4"
+            }
+          ],
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_A_EID_Fresh.DA_Featured_A_EID_Fresh",
+          "itemGrants": [
+            {
+              "templateId": "AthenaDance:EID_Fresh",
+              "quantity": 1
+            }
+          ],
+          "additionalGrants": [],
+          "sortPriority": -1,
+          "catalogGroupPriority": 0
+        },
+        {
+          "devName": "[VIRTUAL]1 x Daily shop Tidy for 200 MtxCurrency",
+          "offerId": "v2:/249c3f8021e121fcaea9b2e6e9d815fd932d4e5f5a69622b3b9560c2902cd943",
+          "fulfillmentIds": [],
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "categories": [
+            "zzDaily 03"
+          ],
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "regularPrice": 500,
+              "dynamicRegularPrice": 500,
+              "finalPrice": 500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z",
+              "basePrice": 500
+            }
+          ],
+          "meta": {
+            "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_EID_Tidy.DAv2_EID_Tidy",
+            "SectionId": "Daily",
+            "TileSize": "Small",
+            "AnalyticOfferGroupId": "3"
+          },
+          "matchFilter": "",
+          "filterWeight": 0.0,
+          "appStoreId": [],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaDance:EID_Tidy",
+              "minQuantity": 1
+            }
+          ],
+          "offerType": "StaticPrice",
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "metaInfo": [
+            {
+              "key": "NewDisplayAssetPath",
+              "value": "/Game/Catalog/NewDisplayAssets/DAv2_EID_Tidy.DAv2_EID_Tidy"
+            },
+            {
+              "key": "SectionId",
+              "value": "Daily"
+            },
+            {
+              "key": "TileSize",
+              "value": "Small"
+            },
+            {
+              "key": "AnalyticOfferGroupId",
+              "value": "3"
+            }
+          ],
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_EID_Tidy.DA_EID_Tidy",
+          "itemGrants": [
+            {
+              "templateId": "AthenaDance:EID_Tidy",
+              "quantity": 1
+            }
+          ],
+          "additionalGrants": [],
+          "sortPriority": -1,
+          "catalogGroupPriority": 0
+        }
+
+      ]
+    },
+    {
+      "devName": "[VIRTUAL]1 x Random Dance",
+      "offerId": "v2:/e82333aef1d166517d0d7c1f1c5dc299528ee9052fbba544872bf4fff027a9d5",
+      "fulfillmentIds": [],
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "categories": [
+        "zzDaily 05"
+      ],
+      "prices": [
+        {
+          "currencyType": "MtxCurrency",
+          "currencySubType": "",
+          "regularPrice": 500,
+          "dynamicRegularPrice": 500,
+          "finalPrice": 500,
+          "saleExpiration": "9999-12-31T23:59:59.999Z",
+          "basePrice": 500
+        }
+      ],
+      "meta": {
+        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_EID_TapShuffle.DAv2_EID_TapShuffle",
+        "SectionId": "Daily",
+        "TileSize": "Small",
+        "AnalyticOfferGroupId": "5"
+      },
+      "matchFilter": "",
+      "filterWeight": 0.0,
+      "appStoreId": [],
+      "requirements": [
+        {
+          "requirementType": "DenyOnItemOwnership",
+          "requiredId": "AthenaDance:EID_TapShuffle",
+          "minQuantity": 1
+        }
+      ],
+      "offerType": "StaticPrice",
+      "giftInfo": {
+        "bIsEnabled": true,
+        "forcedGiftBoxTemplateId": "",
+        "purchaseRequirements": [],
+        "giftRecordIds": []
+      },
+      "refundable": true,
+      "metaInfo": [
+        {
+          "key": "NewDisplayAssetPath",
+          "value": "/Game/Catalog/NewDisplayAssets/DAv2_EID_TapShuffle.DAv2_EID_TapShuffle"
+        },
+        {
+          "key": "SectionId",
+          "value": "Daily"
+        },
+        {
+          "key": "TileSize",
+          "value": "Small"
+        },
+        {
+          "key": "AnalyticOfferGroupId",
+          "value": "5"
+        }
+      ],
+      "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_EID_TapShuffle.DA_EID_TapShuffle",
+      "itemGrants": [
+        {
+          "templateId": "AthenaDance:EID_TapShuffle",
+          "quantity": 1
+        }
+      ],
+      "additionalGrants": [],
+      "sortPriority": -1,
+      "catalogGroupPriority": 0
+    },
+    {
+      "devName": "[VIRTUAL]1 x Circuit Breaker for 1200 MtxCurrency",
+      "offerId": "v2:/9268cb8788c6b62ea0893e6c85198e4fa8a0075bec8a31ada528d1163559367f",
+      "fulfillmentIds": [],
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "categories": [
+        "zzDaily 01"
+      ],
+      "prices": [
+        {
+          "currencyType": "MtxCurrency",
+          "currencySubType": "",
+          "regularPrice": 1200,
+          "dynamicRegularPrice": 1200,
+          "finalPrice": 1200,
+          "saleExpiration": "9999-12-31T23:59:59.999Z",
+          "basePrice": 1200
+        }
+      ],
+      "meta": {
+        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_042_Athena_Commando_M_Cyberpunk.DAv2_CID_042_Athena_Commando_M_Cyberpunk",
+        "SectionId": "Daily",
+        "TileSize": "Normal",
+        "AnalyticOfferGroupId": "1"
+      },
+      "matchFilter": "",
+      "filterWeight": 0.0,
+      "appStoreId": [],
+      "requirements": [
+        {
+          "requirementType": "DenyOnItemOwnership",
+          "requiredId": "AthenaCharacter:CID_042_Athena_Commando_M_Cyberpunk",
+          "minQuantity": 1
+        }
+
+      ],
+      "offerType": "StaticPrice",
+      "giftInfo": {
+        "bIsEnabled": true,
+        "forcedGiftBoxTemplateId": "",
+        "purchaseRequirements": [],
+        "giftRecordIds": []
+      },
+      "refundable": true,
+      "metaInfo": [
+        {
+          "key": "NewDisplayAssetPath",
+          "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_042_Athena_Commando_M_Cyberpunk.DAv2_CID_042_Athena_Commando_M_Cyberpunk"
+        },
+        {
+          "key": "SectionId",
+          "value": "Daily"
+        },
+        {
+          "key": "TileSize",
+          "value": "Normal"
+        },
+        {
+          "key": "AnalyticOfferGroupId",
+          "value": "1"
+        }
+      ],
+      "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_042_Athena_Commando_M_Cyberpunk.DA_Featured_CID_042_Athena_Commando_M_Cyberpunk",
+      "itemGrants": [
+        {
+          "templateId": "AthenaCharacter:CID_042_Athena_Commando_M_Cyberpunk",
+          "quantity": 1
+        }
+
+      ],
+      "additionalGrants": [],
+      "sortPriority": -1,
+      "catalogGroupPriority": 0
+    },
+    {
+      "devName": "[VIRTUAL]1 x Cipher for 1200 MtxCurrency",
+      "offerId": "v2:/360af01e9cb510ac1c0c286311604821f853d6702bd4105c56292eb453f19d43",
+      "fulfillmentIds": [],
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "categories": [
+        "zzDaily 02"
+      ],
+      "prices": [
+        {
+          "currencyType": "MtxCurrency",
+          "currencySubType": "",
+          "regularPrice": 1200,
+          "dynamicRegularPrice": 1200,
+          "finalPrice": 1200,
+          "saleExpiration": "9999-12-31T23:59:59.999Z",
+          "basePrice": 1200
+        }
+      ],
+      "meta": {
+        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_110_Athena_Commando_F_CircuitBreaker.DAv2_CID_110_Athena_Commando_F_CircuitBreaker",
+        "SectionId": "Daily",
+        "TileSize": "Normal",
+        "AnalyticOfferGroupId": "2"
+      },
+      "matchFilter": "",
+      "filterWeight": 0.0,
+      "appStoreId": [],
+      "requirements": [
+        {
+          "requirementType": "DenyOnItemOwnership",
+          "requiredId": "AthenaCharacter:CID_110_Athena_Commando_F_CircuitBreaker",
+          "minQuantity": 1
+        }
+
+      ],
+      "offerType": "StaticPrice",
+      "giftInfo": {
+        "bIsEnabled": true,
+        "forcedGiftBoxTemplateId": "",
+        "purchaseRequirements": [],
+        "giftRecordIds": []
+      },
+      "refundable": true,
+      "metaInfo": [
+        {
+          "key": "NewDisplayAssetPath",
+          "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_110_Athena_Commando_F_CircuitBreaker.DAv2_CID_110_Athena_Commando_F_CircuitBreaker"
+        },
+        {
+          "key": "SectionId",
+          "value": "Daily"
+        },
+        {
+          "key": "TileSize",
+          "value": "Normal"
+        },
+        {
+          "key": "AnalyticOfferGroupId",
+          "value": "2"
+        }
+      ],
+      "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_CID_110_Athena_Commando_F_CircuitBreaker.DA_CID_110_Athena_Commando_F_CircuitBreaker",
+      "itemGrants": [
+        {
+          "templateId": "AthenaCharacter:CID_110_Athena_Commando_F_CircuitBreaker",
+          "quantity": 1
+        }
+
+      ],
+      "additionalGrants": [],
+      "sortPriority": -1,
+      "catalogGroupPriority": 0
+    },
+    {
+      "name": "BRWeeklyStorefront",
+      "catalogEntries": [
+        {
+          "devName": "[VIRTUAL]1 x Featured Shop Renegade Raider for 1200 MtxCurrency",
+          "offerId": "v2:/fa66090f08ed06cbb337d2f3a5318ed0c07a1ce99b23a420d4fd17ceb2018dfd",
+          "fulfillmentIds": [],
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "categories": [
+            "Panel 01"
+          ],
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "regularPrice": 1200,
+              "dynamicRegularPrice": 1200,
+              "finalPrice": 1200,
+              "saleExpiration": "9999-12-31T23:59:59.999Z",
+              "basePrice": 1200
+            }
+          ],
+          "meta": {
+            "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_028_Athena_Commando_F.DAv2_CID_028_Athena_Commando_F",
+            "SectionId": "Featured",
+            "TileSize": "Normal",
+            "AnalyticOfferGroupId": "1"
+          },
+          "matchFilter": "",
+          "filterWeight": 0.0,
+          "appStoreId": [],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaCharacter:CID_028_Athena_Commando_F",
+              "minQuantity": 1
+            }
+
+          ],
+          "offerType": "StaticPrice",
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "metaInfo": [
+            {
+              "key": "NewDisplayAssetPath",
+              "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_028_Athena_Commando_F.DAv2_CID_028_Athena_Commando_F"
+            },
+            {
+              "key": "SectionId",
+              "value": "Featured"
+            },
+            {
+              "key": "TileSize",
+              "value": "Normal"
+            },
+            {
+              "key": "AnalyticOfferGroupId",
+              "value": "1"
+            }
+          ],
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_CID_028_Athena_Commando_F.DA_CID_028_Athena_Commando_F",
+          "itemGrants": [
+            {
+              "templateId": "AthenaCharacter:CID_028_Athena_Commando_F",
+              "quantity": 1
+            }
+          ],
+          "additionalGrants": [],
+          "sortPriority": -1,
+          "catalogGroupPriority": 0
+        },
+        {
+          "devName": "[VIRTUAL]1 x Aerial Assault Trooper for 1200 MtxCurrency",
+          "offerId": "v2:/0d954df145699a4bbf3e2eb4f67a3694fa67e9f5da5fc42df3690c7c5df79f3f",
+          "fulfillmentIds": [],
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "categories": [
+            "Panel 02"
+          ],
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "regularPrice": 1200,
+              "dynamicRegularPrice": 1200,
+              "finalPrice": 1200,
+              "saleExpiration": "9999-12-31T23:59:59.999Z",
+              "basePrice": 1200
+            }
+          ],
+          "meta": {
+            "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_017_Athena_Commando_M.DAv2_CID_017_Athena_Commando_M",
+            "SectionId": "Featured",
+            "TileSize": "Normal",
+            "AnalyticOfferGroupId": "2"
+          },
+          "matchFilter": "",
+          "filterWeight": 0.0,
+          "appStoreId": [],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaCharacter:CID_017_Athena_Commando_M",
+              "minQuantity": 1
+            }
+
+          ],
+          "offerType": "StaticPrice",
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "metaInfo": [
+            {
+              "key": "NewDisplayAssetPath",
+              "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_017_Athena_Commando_M.DAv2_CID_017_Athena_Commando_M"
+            },
+            {
+              "key": "SectionId",
+              "value": "Featured"
+            },
+            {
+              "key": "TileSize",
+              "value": "Normal"
+            },
+            {
+              "key": "AnalyticOfferGroupId",
+              "value": "2"
+            }
+          ],
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_017_Athena_Commando_M.DA_Featured_CID_017_Athena_Commando_M",
+          "itemGrants": [
+            {
+              "templateId": "AthenaCharacter:CID_017_Athena_Commando_M",
+              "quantity": 1
+            }
+
+          ],
+          "additionalGrants": [],
+          "sortPriority": -1,
+          "catalogGroupPriority": 0
+        },
+        {
+          "devName": "[VIRTUAL]1 x Raider's Revenge for 800 MtxCurrency",
+          "offerId": "v2:/2bcd2f2eb375e6b1c4ce0dc173c58c8c250d9ccc3b08c30006addcc42dbbe83a",
+          "fulfillmentIds": [],
+          "dailyLimit": -1,
+          "weeklyLimit": -1,
+          "monthlyLimit": -1,
+          "categories": [
+            "Panel 03"
+          ],
+          "prices": [
+            {
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "regularPrice": 1500,
+              "dynamicRegularPrice": 1500,
+              "finalPrice": 1500,
+              "saleExpiration": "9999-12-31T23:59:59.999Z",
+              "basePrice": 1500
+            }
+          ],
+          "meta": {
+            "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_Lockjaw.DAv2_Pickaxe_Lockjaw",
+            "SectionId": "Featured",
+            "TileSize": "Small",
+            "AnalyticOfferGroupId": "3"
+          },
+          "matchFilter": "",
+          "filterWeight": 0.0,
+          "appStoreId": [],
+          "requirements": [
+            {
+              "requirementType": "DenyOnItemOwnership",
+              "requiredId": "AthenaPickaxe:Pickaxe_Lockjaw",
+              "minQuantity": 1
+            }
+          ],
+          "offerType": "StaticPrice",
+          "giftInfo": {
+            "bIsEnabled": true,
+            "forcedGiftBoxTemplateId": "",
+            "purchaseRequirements": [],
+            "giftRecordIds": []
+          },
+          "refundable": true,
+          "metaInfo": [
+            {
+              "key": "NewDisplayAssetPath",
+              "value": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_Lockjaw.DAv2_Pickaxe_Lockjaw"
+            },
+            {
+              "key": "SectionId",
+              "value": "Featured"
+            },
+            {
+              "key": "TileSize",
+              "value": "Small"
+            },
+            {
+              "key": "AnalyticOfferGroupId",
+              "value": "3"
+            }
+          ],
+          "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_Lockjaw.DA_Featured_Pickaxe_Lockjaw",
+          "itemGrants": [
+            {
+              "templateId": "AthenaPickaxe:Pickaxe_Lockjaw",
+              "quantity": 1
+            }
+          ],
+          "additionalGrants": [],
+          "sortPriority": -1,
+          "catalogGroupPriority": 0
+        }
+
+      ]
+    }
+  ]
+}
+  
